@@ -805,12 +805,21 @@ section.big-statement {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: none;
-  background-color: var(--tertiary-color);
+  background-color: var(--bg);
+  background-image:
+    url('powershell-summit-logo.png'),
+    url('cc-by-sa.png');
+  background-position:
+    top 20px right 20px,
+    bottom 20px left 20px;
+  background-size:
+    auto 56px,
+    auto 40px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 section.big-statement h1 {
-  background: var(--bg);
+  background: var(--fg);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

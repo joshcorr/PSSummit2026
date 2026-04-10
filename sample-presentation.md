@@ -96,6 +96,12 @@ You can use all official PowerShell Summit colors:
 
 ---
 
+<!-- _class: big-statement -->
+
+# Big Statement
+
+---
+
 # Callout Variations
 
 <div class="callout primary">
