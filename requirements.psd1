@@ -4,6 +4,9 @@
   }
     
   'psake' = @{
-    Version = '4.9.1'
+    Version = 'latest'
+    Parameters = @{
+      AllowPrerelease = $true
+    }
   }
 }
